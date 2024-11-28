@@ -15,16 +15,16 @@
             Console.WriteLine("Willkommen bei FizzBuzz!");
             for (int i = 1; i <= 100; i++) 
             {
-                Thread.Sleep(1000);
+                Thread.Sleep(200);
                 if (i % 3 == 0 && i % 5 == 0)
                 {
                     Console.WriteLine("FizzBuzz");
                 }
-                if (i % 3 == 0)
+                else if (i % 3 == 0)
                 {
                     Console.WriteLine("Fizz");
                 }
-                if (i % 5 == 0)
+                else if (i % 5 == 0)
                 {
                     Console.WriteLine("Buzz");
                 }
